@@ -13,17 +13,22 @@
 ## Api URls:
 
 #### Books List API
-Method:- ##### GET.
+Method:- GET
+
 URL:- `http://127.0.0.1:8000/api/products`
 #### Books Create API
-Method:- ##### POST.
+Method:- POST
+
 URL:- `http://127.0.0.1:8000/api/products`
 #### Books Fetch API
-Method:- ##### GET.
+Method:- GET
+
 URL :- `http://127.0.0.1:8000/api/products/{id}`
 #### Books Update API
-Method:- ##### PUT.
+Method:- PUT
+
 URL :- `http://127.0.0.1:8000/api/products/{id}`
 #### Books Delete API
-Method:- ##### DELETE.
+Method:- DELETE
+
 URL :- `http://127.0.0.1:8000/api/products/{id}`
