@@ -9,21 +9,21 @@
 - Run `php artisan serve`
 
 ##### You can now access your project at localhost:8000 :)
-book
-##### Api URls:
 
-Books List API
+## Api URls:
+
+#### Books List API
 Method:- GET
 URL:- http://127.0.0.1:8000/api/products
-Books Create API
+#### Books Create API
 Method:- POST
 URL:- http://127.0.0.1:8000/api/products
-Books Fetch API
+#### Books Fetch API
 Method:- GET
 URL :- http://127.0.0.1:8000/api/products/{id}
-Books Update API
+#### Books Update API
 Method:- PUT
 URL :- http://127.0.0.1:8000/api/products/{id}
-Books Delete API
+#### Books Delete API
 Method:- DELETE
 URL :- http://127.0.0.1:8000/api/products/{id}
