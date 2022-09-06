@@ -1,4 +1,4 @@
-##Steps for Running the Api:
+## Steps for Running the Api:
 - Run the server wamp/xampp
 - Clone the repository https://github.com/Chinmay1903/E-Book-Store-Api.git.
 - Rename .env.example file to .env 
@@ -8,9 +8,10 @@
 - Run `php artisan migrate`
 - Run `php artisan serve`
 
-#####You can now access your project at localhost:8000 :)
+##### You can now access your project at localhost:8000 :)
 book
-#####Api URls:
+##### Api URls:
+
 Books List API
 Method:- GET
 URL:- http://127.0.0.1:8000/api/products
