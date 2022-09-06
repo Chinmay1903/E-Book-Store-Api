@@ -10,26 +10,35 @@
 
 ##### You can now access your project at localhost:8000 :)
 
-```sh
+
 ## Api URls:
 
 #### Books List API
+```sh
 Method:- GET
 
 URL:- `http://127.0.0.1:8000/api/products`
+```
 #### Books Create API
+```sh
 Method:- POST
 
 URL:- `http://127.0.0.1:8000/api/products`
+```
 #### Books Fetch API
+```sh
 Method:- GET
 
 URL :- `http://127.0.0.1:8000/api/products/{id}`
+```
 #### Books Update API
+```sh
 Method:- PUT
 
 URL :- `http://127.0.0.1:8000/api/products/{id}`
+```
 #### Books Delete API
+```sh
 Method:- DELETE
 
 URL :- `http://127.0.0.1:8000/api/products/{id}`
