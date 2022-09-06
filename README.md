@@ -10,6 +10,7 @@
 
 ##### You can now access your project at localhost:8000 :)
 
+```sh
 ## Api URls:
 
 #### Books List API
@@ -32,3 +33,4 @@ URL :- `http://127.0.0.1:8000/api/products/{id}`
 Method:- DELETE
 
 URL :- `http://127.0.0.1:8000/api/products/{id}`
+```
