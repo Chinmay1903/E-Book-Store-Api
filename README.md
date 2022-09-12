@@ -17,29 +17,29 @@
 ```sh
 Method:- GET
 
-URL:- `http://127.0.0.1:8000/api/products`
+URL:- `http://127.0.0.1:8000/api/books`
 ```
 #### Books Create API
 ```sh
 Method:- POST
 
-URL:- `http://127.0.0.1:8000/api/products`
+URL:- `http://127.0.0.1:8000/api/books`
 ```
 #### Books Fetch API
 ```sh
 Method:- GET
 
-URL :- `http://127.0.0.1:8000/api/products/{id}`
+URL :- `http://127.0.0.1:8000/api/books/{id}`
 ```
 #### Books Update API
 ```sh
 Method:- PUT
 
-URL :- `http://127.0.0.1:8000/api/products/{id}`
+URL :- `http://127.0.0.1:8000/api/books/{id}`
 ```
 #### Books Delete API
 ```sh
 Method:- DELETE
 
-URL :- `http://127.0.0.1:8000/api/products/{id}`
+URL :- `http://127.0.0.1:8000/api/books/{id}`
 ```
