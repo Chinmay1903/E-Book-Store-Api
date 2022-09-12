@@ -92,7 +92,7 @@ class EStoreDataController extends Controller
     public function update(Request $request, EStoreData $eStoreData)
     {
         $eStoreData->update($request->all());
-        
+
         return new EStoreDataResource($eStoreData);
     }
 
@@ -102,10 +102,20 @@ class EStoreDataController extends Controller
      * @param  \App\Models\EStoreData  $eStoreData
      * @return \Illuminate\Http\Response
      */
-    public function destroy(EStoreData $eStoreData)
+    public function destroy($id)
     {
-        $eStoreData->delete();
-
-        return response(null, 204);
+        $eStoreData = EStoreData::findorFail($id);
+        if($eStoreData->delete()){ 
+            return response()->json([
+                'status' => true,
+                'message' => "Book Deleted successfully!",
+            ], 200);
+        }else{
+            return response()->json([
+                'status' => False,
+                'message' => "Book Not Deleted successfully!",
+            ], 304);
+        }
+        
     }
 }
